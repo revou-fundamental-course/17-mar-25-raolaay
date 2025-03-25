@@ -7,9 +7,10 @@ body{
 
 .container{
     background-color: bisque;
+    flex-wrap: wrap;
     border-radius: 20px;
     padding: 20px;
-    width: 30%;
+    width: 50%;
 }
 
 header{
