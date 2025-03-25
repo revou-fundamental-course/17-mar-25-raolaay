@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator</title>
+
+    <!--Link CSS-->
+    <link rel="stylesheet" href="/css/style.css">
+
+</head>
+<body>
+   <div class="container">
+        <header>
+            <h1>Kalkulator</h1>
+            <p>Kalkulator Matematik adalah sebuah web sederhana
+                yang dapat digunakan untuk menghitung luas dan keliling
+                bangun persegi dan persegi panjang!
+            </p>
+            <button id="btnPP">Persegi Panjang</button>
+            <button id="btnPr">Persegi</button>
+        </header>
+        <main>
+            <section id="ppanjang">
+                <h2>Menghitung Luas dan Keliling Persegi Panjang</h1>
+                <img src="/assets/rumus ppanjang.jpg">
+                <label for="panjang">Panjang:</label><input type="number" id="panjang">
+                <label for="lebar">Lebar:</label><input type="number" id="lebar"><br>
+                <div class="rumus">
+                    <button id="luasppanjang">Hitung Luas</button>
+                    <button id="kelppanjang">Hitung Keliling</button>
+                </div> 
+                <div class="hasil">
+                    <p id="luaspp"></p>
+                    <p id="kelpp"></p>
+                </div>    
+            </section>
+            <section id="persegi">
+                <h2>Menghitung Luas dan Keliling Persegi</h1>
+                <img src="/assets/rumus persegi.jpg">
+                <label for="sisi">Sisi:</label><input type="number" id="sisi"><br>
+                <div class="rumus">
+                    <button id="luaspersegi">Hitung Luas</button>
+                    <button id="kelpersegi">Hitung Keliling</button>
+                </div>  
+                <div class="rumus">
+                    <p id="luaspr"></p>
+                    <p id="kelpr"></p>
+                </div>
+            </section>
+        </main>
+   </div> 
+    
+   <!--Link JavaScript-->
+    <script src="/js/script.js"></script>
+</body>
+</html>
